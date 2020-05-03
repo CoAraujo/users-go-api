@@ -2,7 +2,7 @@
 
 ## Descrição
 * Projeto para consultar usuários e criar usuários. Criação ocorrerá de forma assíncrona com mensagens sendo enviadas para filas de uma mensageria (ActiveMQ) onde serão processadas assíncronamente por algum consumidor.
-* Este projeto está feito em conjunto com outro projeto chamado [users-processor](https://github.com/CoAraujo/users-processor)
+* Este projeto está feito em conjunto com outro projeto chamado [users-go-processor](https://github.com/CoAraujo/users-go-processor)
 * O docker-compose foi comentado a fim de rodar os dois projetos em conjunto. Caso queira rodar apenas esse, basta descomentar.
 
 ## Requisitos Mínimos
@@ -104,6 +104,9 @@ Response:
 ```
 
 ***
+
+## Collection Postman
+* Importar a [collection](https://www.getpostman.com/collections/0535c574b7e864a6baca)
 
 ## Arquitetura de Solução
 TODO
